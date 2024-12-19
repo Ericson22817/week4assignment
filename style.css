@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2em;
+}
+#bio-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    gap: 20px;
+    padding: 20px;
+}
+#bio {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#bio h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+#bio p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+#image {
+    text-align: center;
+    margin: 20px;
+}
+#image img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#achievements {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#achievements h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+#achievements ul {
+    list-style-type: none;
+}
+#achievements li {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
